@@ -17,3 +17,17 @@
 
 - #### https://github.com/Eugene-prog/aviatickets/tree/master
   #### Project Air Tickets = Udemy course Modern JS + Vue from scratch with real examples (section 6 modules)
+
+## Experience
+
+#### Learn on course
+
+- #### Modern JavaScript + Vue from scratch on real projects
+  #### https://www.udemy.com/course/modern-javascript-from-beginning/
+- #### JavaScript array methods
+- #### https://itgid.info/course/arraymethod
+
+## Languages
+
+- #### English, B1-intermediate
+- #### Russian, Native
