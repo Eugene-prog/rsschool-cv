@@ -4,8 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-  </head>
-  <body></body>
+		<link rel="stylesheet" href="css/style.css">
+		<title>Resume HTML и CSS</title>
+	</head>
+
+	<body>
+		<main class="information">
+			<div class="card">
+				<img class="card-photo" src="img/my-pic.jpg" alt="Ivaschenko Eugene">
+
+				<h1 class="card-title">Ivaschenko Eugene</h1>
+        <h2 class="card-title">I am a beginning frontend developer</h2>
+				<div class="card-text">
+					<h3>Education:</h3>
+					<p> I got higher education at a "Polzunov Altai State Technical University"</p>
+					<h3>Experience:</h3>
+					<h3>Studied in courses 2021-2022 [self-education]</h3>
+            <p><a href="https://brainscloud.ru/landing/html-css">HTML и CSS с нуля для начинающих [brainscloud]</a></p>
+            <p><a href="https://www.udemy.com/course/modern-javascript-from-beginning">Modern JavaScript + Vue from scratch on real projects [Udemy]</a></p>
+            <p><a href="https://itgid.info/course/arraymethod">JavaScript array methods [ItGid]</a></p>
+            <p><a href="https://www.udemy.com/course/react-np">Modern React - From Zero to Professional [Udemy]</a></p>
+				</div>
+				<h2 class="card-subtitle">Skills:</h2>
+				<ul class="card-list">
+					<li>JavaScript</li>
+					<li>HTML, CSS</li>
+          <li>React</li>
+					<li>Git</li>
+				</ul>
+        <h3 class="card-subtitle">Code Example:</h3>
+        <pre>
+          <code class="language-javascript">
+function randomNumber(max = 1, min = 0) {
+  if (min &gt;= max) { 
+    return max; 
+  }
+  return Math.floor(Math.random() * (max - min) + min);
+}
+          </code>
+        </pre>
+        <h3 class="card-subtitle">Projects:</h3>
+        <a href="https://eugene-prog.github.io/cosmos-tourism"><img class="project1" src="img/project1.png" alt="project1"></a>
+        <a href="https://pig-game-2022.netlify.app"><img class="project2" src="img/project2.png" alt="project2"></a>
+				<h3 class="card-subtitle">Languages:</h3>
+				<ul class="card-list">
+					<li>Russian, Native</li>
+					<li>English, A2 pre-intermediate</li>
+				</ul>
+				<h3 class="card-subtitle">Contacts:</h3>
+				<ul class="card-list">
+          <li>  
+            <img class="icon" src="img/icons/phone-icon.svg" width=25 alt="phone"><a href="tel:+7(960)939-88-88">+7(960)939-88-88</a>
+          </li>
+				  <li>
+				  	<img class="icon" src="img/icons/mail-icon.svg" width=25 alt="email"><a href="mailto:ieugene.prog@gmail.com">ieugene.prog@gmail.com</a>
+				  </li>
+          <li>
+				  	<img class="icon" src="img/icons/telegram.svg" width=25 alt="telegram"><a href="https://t.me/i_Eugene">@i_Eugene</a>
+				  </li>
+        </ul>
+				<footer class="footer">
+					<div class="footer_links">
+
+						<div class="footer_github">
+							<a href="https://github.com/Eugene-prog">
+								<img src="img/github.svg" alt="github">
+							</a>
+						</div>
+
+						<div class="footer_rsschool">
+							<a href="https://rs.school/js/">
+								<img src="img/rs_school_js.svg" width="100" alt="rsschool">
+							</a>
+						</div>
+					</div>
+					<div class="footer_year">2022</div>
+				</footer>
+      </div>
+		</main>
+	</body>
 </html>
+

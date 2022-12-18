@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  background: url('../img/bg.jpg');
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  font-family: Consolas,"courier new";
+  color: rgb(85, 48, 207);
+  padding: 1px;
+  font-size: 80%;
+}
+
+a {
+  margin-left: 10px;
+}
+
+.card {
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: lightgrey;
+  box-shadow: 0 5px 10px #ccc;
+  border-radius: 20px;
+}
+.card-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 20px;
+  text-align: center;
+  color: #080f05;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+.card-subtitle {
+  font-size: 18px;
+}
+
+.card-list {
+  padding-left: 0;
+  list-style-position: inside;
+  font-size: 14px;
+}
+
+.icon {
+  margin-top: -10px;
+}
+
+.footer_rsschool,.footer_year,.footer_github {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #080f05;
+}
